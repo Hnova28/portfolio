@@ -34,7 +34,7 @@ body {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 70px;
 }
 
 .nav-links li a {
@@ -57,7 +57,7 @@ body {
 .hero h2 {
   font-size: 20px;
   margin-bottom: 10px;
-  color: #ffc107;
+  color: #c5a649;
 }
 
 .hero h1 {
@@ -67,7 +67,7 @@ body {
 }
 
 .highlight {
-  color: #ffc107;
+  color: #c5a649;
 }
 
 .hero p {
@@ -90,6 +90,20 @@ body {
   animation: fadeInZoom 1.5s ease-in-out forwards;
   animation-delay: 0.5s;
 }
+.contact-info .label {
+  color: #c5a649; /* gold/yellow for labels */
+  font-weight: bold;
+}
+.contact-info a {
+  color: #ffffff; /* keep email link white */
+  text-decoration: none;
+}
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+
+
 
 /* Animation Keyframes */
 @keyframes fadeInZoom {
@@ -125,6 +139,7 @@ body {
 .info p {
   margin: 10px 0;
   line-height: 1.5;
+  font-size: 20px;
   color: #dcdcdc;
 }
 
@@ -162,65 +177,6 @@ body {
 .details strong {
   color: white;
 }
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #001f3f; /* Dark blue background */
-  color: #ffffff; /* Standard white font */
-  text-align: center;
-
-.resume-container {
-  position: relative;
-  z-index: 2;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-
-#resume h1 {
-  font-size: 48px;
-  font-weight: 700;
-  margin: 0;
-  position: relative;
-  z-index: 2;
-}
-.shadow-text::after {
-  content: 'Resume';
-  font-size: 6rem;
-  color: rgba(255, 255, 255, 0.05);
-  position: absolute;
-  top: -40px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: -1;
-}
-
-#resume p {
-  font-size: 16px;
-  line-height: 1.6;
-  color: #ffffff;
-  margin-top: 20px;
-}
-
-#resume .btn {
-  display: inline-block;
-  margin-top: 30px;
-  padding: 12px 30px;
-  font-size: 16px;
-  color: white;
-  background-color: #004080;
-  border: none;
-  border-radius: 6px;
-  text-decoration: none;
-  transition: background 0.3s ease;
-}
-
-#resume .btn:hover {
-  background-color: #0059b3;
-}
-
 
 body {
   margin: 0;
